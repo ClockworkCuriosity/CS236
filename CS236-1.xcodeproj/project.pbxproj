@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28D28E981B41FF8C00B672A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28D28E971B41FF8C00B672A9 /* main.cpp */; };
+		28D28EA31B42009000B672A9 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28D28EA11B42009000B672A9 /* Token.cpp */; };
+		28D28EA61B42009B00B672A9 /* Scanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28D28EA41B42009B00B672A9 /* Scanner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		28D28E941B41FF8C00B672A9 /* CS236-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS236-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D28E971B41FF8C00B672A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28D28EA11B42009000B672A9 /* Token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Token.cpp; sourceTree = "<group>"; };
+		28D28EA21B42009000B672A9 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		28D28EA41B42009B00B672A9 /* Scanner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scanner.cpp; sourceTree = "<group>"; };
+		28D28EA51B42009B00B672A9 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				28D28E971B41FF8C00B672A9 /* main.cpp */,
+				28D28EA11B42009000B672A9 /* Token.cpp */,
+				28D28EA21B42009000B672A9 /* Token.h */,
+				28D28EA41B42009B00B672A9 /* Scanner.cpp */,
+				28D28EA51B42009B00B672A9 /* Scanner.h */,
 			);
 			path = "CS236-1";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D28EA61B42009B00B672A9 /* Scanner.cpp in Sources */,
 				28D28E981B41FF8C00B672A9 /* main.cpp in Sources */,
+				28D28EA31B42009000B672A9 /* Token.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +247,7 @@
 				28D28E9D1B41FF8C00B672A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
