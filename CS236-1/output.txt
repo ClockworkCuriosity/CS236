@@ -1,0 +1,3 @@
+(ID,"SCHEMES",2)
+(COLON,":",2)
+Input Error on line 6

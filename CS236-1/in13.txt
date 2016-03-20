@@ -1,0 +1,17 @@
+
+
+# unterminated string
+
+'good string'
+
+'bad string
+
+beat
+jim
+at
+chess
+
+#ffgkflkmdfg
+BEEPBO
+
+

@@ -22,14 +22,16 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    //string x = argv[1];
-    string x = "in61.txt";
+    string x = argv[1];
     Scanner S;
-    //const map<char,int> p_mark = {{',', 1}, {'.', 1}, {'?', 1}, {'(', 1}, {')', 1}, {':', 1}, {'\*', 1}, {'\+', 1}}; //NOT FINISHED
-    cout << "Compiled and functional so far, not necessarily right!" << endl;
+    S.set_output_name(argv[2]);
     
     S.parse_file(x);
-    S.make_output(argv[2]);
+    //if no errors, make the output.
+    if(S.get_errors()=="")
+    {
+        S.make_output(argv[2]);
+    }
     
     return 0;
 }
